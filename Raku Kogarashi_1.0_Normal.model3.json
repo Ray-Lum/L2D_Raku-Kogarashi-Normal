@@ -1,0 +1,32 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Raku Kogarashi_1.0_Normal.moc3",
+		"Textures": [
+			"Raku Kogarashi_1.0_Normal.4096/texture_00.png",
+			"Raku Kogarashi_1.0_Normal.4096/texture_01.png",
+			"Raku Kogarashi_1.0_Normal.4096/texture_02.png"
+		],
+		"Physics": "Raku Kogarashi_1.0_Normal.physics3.json",
+		"DisplayInfo": "Raku Kogarashi_1.0_Normal.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"Param3",
+				"Param4"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}
